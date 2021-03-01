@@ -9,19 +9,27 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+
 Faça as migrações dos modelos para o banco sqlite:
+
 
 python manage.py makemigrations
 
 python manage.py migrate
 
+
 Agora inicie o projeto com o comando:
 
+
 python3 manage.py runserver
+
+
 
 Abra no seu browser o seguinte endereço:
 
 http://localhost:5000/
+
+
 
 Nesta tela ja havera o seguinte link:
 
@@ -30,10 +38,12 @@ Nesta tela ja havera o seguinte link:
 Acessando este link você ja podera fazer testes em todos os endpoints
 da api utilizando a interface web que o Django Rest Framework provem.
 
+
 ## Testes
 
 Tambem escrevi alguns testes para testar os endpoints do backend, para executa-los
 basta rodar o comando (dentro da pasta backend): python manage.py test
+
 
 ## Endpoints
 
