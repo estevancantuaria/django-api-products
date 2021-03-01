@@ -10,7 +10,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-Faça as migrações dos modelos para o banco sqlite:
+Faça as migrações dos modelos para o banco sqlite com os comandos:
 
 
 python manage.py makemigrations
