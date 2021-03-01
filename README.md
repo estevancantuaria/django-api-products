@@ -4,7 +4,9 @@ Acesse a pasta do projeto e siga a ordem dos comandos abaixo para criar o
 ambiente virtual (virtualenv) e instalar as dependências do projeto:
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 Agora inicie o projeto com o comando:
