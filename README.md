@@ -1,4 +1,4 @@
-Instruções para rodar a aplicação
+# Instruções para rodar a aplicação
 
 Acesse a pasta do projeto e siga a ordem dos comandos abaixo para criar o
 ambiente virtual (virtualenv) e instalar as dependências do projeto:
@@ -22,12 +22,12 @@ Nesta tela ja havera o seguinte link:
 Acessando este link você ja podera fazer testes em todos os endpoints
 da api utilizando a interface web que o Django Rest Framework provem.
 
-Testes
+## Testes
 
 Tambem escrevi alguns testes para testar os endpoints do backend, para executa-los
 basta rodar o comando (dentro da pasta backend): python manage.py test
 
-Endpoints
+## Endpoints
 
 Por fim segue abaixo os endpoints da api:
 
